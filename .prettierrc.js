@@ -17,7 +17,7 @@ module.exports = {
 	arrowParens: 'always', //use parenthesis around the argument(s) of an arrow function
 	useTabs: true, //timeless spaces vs tabs
 	requirePragma: false, //will check for the @format tag before formatting
-	insertPragma: true, //generates said @format tag
+	insertPragma: false, //generates said @format tag
 	proseWrap: 'preserve', //default setting
 	htmlWhiteSpaceSensitivity: 'ignore', //default setting
 	endOfLine: 'auto', //default setting
