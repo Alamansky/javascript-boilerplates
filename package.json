@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node_modules/.bin/webpack-dev-server --mode development --config webpack.config.js --open firefox --hot --history-api-fallback"
+		"start": "node_modules/.bin/webpack-dev-server --mode development --config webpack.config.js --open %BROWSER% --hot --history-api-fallback"
 	},
 	"repository": {
 		"type": "git",
@@ -23,6 +23,7 @@
 		"@babel/preset-env": "^7.2.3",
 		"babel-eslint": "^10.0.1",
 		"babel-loader": "^8.0.5",
+		"cross-env": "^5.2.0",
 		"css-loader": "^2.1.0",
 		"eslint": "^5.12.0",
 		"eslint-config-prettier": "^3.4.0",
