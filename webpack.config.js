@@ -15,10 +15,26 @@ module.exports = {
 		rules: [
 			{ test: /\.js$/, use: ['babel-loader'] },
 			{
-				test: /\.css$/,
+				test: /\.scss$/,
 				use: [
-					{ loader: 'style-loader', options: { sourceMap: true } },
-					{ loader: 'css-loader', options: { sourceMap: true } },
+					{
+						loader: 'style-loader',
+						options: {
+							sourceMap: true, //change for production
+						},
+					},
+					{
+						loader: 'css-loader',
+						options: {
+							sourceMap: true, //change for production
+						},
+					},
+					{
+						loader: 'sass-loader',
+						options: {
+							sourceMap: true, //change for production
+						},
+					},
 				],
 			},
 		],

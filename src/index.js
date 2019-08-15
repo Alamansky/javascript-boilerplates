@@ -1,5 +1,5 @@
-import './style.css';
+import './style/style.scss';
 
 const app = document.getElementById('app');
 
-app.innerHTML = 'Hello World!!!!!!!';
+app.innerHTML = 'Hello World!';
