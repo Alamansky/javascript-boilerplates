@@ -18,7 +18,7 @@ module.exports = {
 		ecmaVersion: 9, //sets ecmascript version to ES9/ES2018
 		sourceType: 'module', //specifies code as module-based vs script-tag based
 	},
-	plugins: ['babel'], //installed plugins, optional "eslint-plugin-" prefix removed
+	plugins: ['babel', 'react'], //installed plugins, optional "eslint-plugin-" prefix removed
 	rules: {
 		strict: 1,
 	},

@@ -1,5 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import './style/style.scss';
+import Icon from './components/icon/icon';
 
-const app = document.getElementById('app');
-
-app.innerHTML = 'Hello World!';
+ReactDOM.render(<Icon name={'close'} />, document.getElementById('app'));
